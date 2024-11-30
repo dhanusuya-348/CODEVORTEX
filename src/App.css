@@ -1,0 +1,124 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.download-options {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Base Button Styling */
+button {
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Specific Button Colors */
+.save-button {
+  background-color: #28a745; /* Green for Save */
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.edit-button {
+  background-color: #007bff; /* Blue for Edit */
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red for Delete */
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.download-button {
+  background-color: #17a2b8; /* Cyan for Download */
+}
+
+.download-button:hover {
+  background-color: #138496;
+}
+
+.download-all-button {
+  background-color: #28a745; /* Green for Download All */
+}
+
+.download-all-button:hover {
+  background-color: #218838;
+}
+
+/* Textarea Styling */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul.notes-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Note Item Styling */
+li.note-item {
+  background-color: white;
+  margin: 10px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-actions {
+  margin-top: 10px;
+}
+
+/* Note Action Buttons */
+.note-actions button {
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.note-actions button:hover {
+  color: white;
+}
+
+small {
+  color: #666;
+  display: block;
+  margin-top: 5px;
+}
